@@ -1,0 +1,11 @@
+:root { --slotai-nav-height: 48px; }
+.slotai-navigation { position: fixed; inset: 0 0 auto; height: var(--slotai-nav-height); box-sizing: border-box; z-index: 100; display: flex; align-items: center; gap: 20px; padding: 0 16px; background: #171b24; color: #f1f5fa; font: 14px system-ui, sans-serif; }
+.slotai-navigation a { color: #dbeafe; text-decoration: none; font-weight: 600; white-space: nowrap; }
+.slotai-navigation select { max-width: 45vw; padding: 5px 8px; background: #262e3c; color: white; border: 1px solid #526077; border-radius: 4px; }
+body #unity-container.unity-desktop, body #unity-container.unity-mobile { position: absolute; left: 50%; top: calc(50% + var(--slotai-nav-height) / 2); transform: translate(-50%, -50%); width: min(100vw, calc((100vh - var(--slotai-nav-height)) * 16 / 9)); height: auto; }
+body #unity-container #unity-canvas { width: 100% !important; height: auto !important; aspect-ratio: 16 / 9; display: block; }
+body.slotai-catalog { margin: 0; background: #0c1018; color: #f1f5fa; font: 16px system-ui, sans-serif; }
+.slotai-catalog main { max-width: 1100px; margin: 80px auto 32px; padding: 0 24px; }
+#slotai-game-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; }
+#slotai-game-list a { display: block; padding: 18px; background: #1a2231; border: 1px solid #344155; border-radius: 8px; color: #dbeafe; text-decoration: none; }
+#slotai-game-list a:hover { background: #283851; }
