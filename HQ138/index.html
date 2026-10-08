@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity Web Player | SlotAI</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  <link rel="stylesheet" href="../_shared/player.css?v=178af4cf2900"><script>window.slotaiSharedAssets={"formatVersion":3,"files":{"dataUrl":{"sha256":"a5f6e47b91056527f2f68f2c1c91b2c2d7b0ae98d245757c1ad6e0a31216635e","bytes":9151597,"segments":[{"inline":"VW5pdHlXZWJEYXRhMS4wAPAAAADwAAAAmCcHAAwAAABkYXRhLnVuaXR5M2SIKAcADQAAAB0AAABSdW50aW1lSW5pdGlhbGl6ZU9uTG9hZHMuanNvbpUoBwDeCwAAGAAAAFNjcmlwdGluZ0Fzc2VtYmxpZXMuanNvbnM0BwByAAAACwAAAGJvb3QuY29uZmln5TQHAISIawAnAAAASWwyQ3BwRGF0YS9NZXRhZGF0YS9nbG9iYWwtbWV0YWRhdGEuZGF0ab1yAATnGAAhAAAAUmVzb3VyY2VzL3VuaXR5IGRlZmF1bHQgcmVzb3VyY2Vz"},{"path":"../_shared/assets/813c9cef4d23bd9a429868a8b8c4e926a8f1757edf23ffe3107141ac0de4d0d2.data.gz","sha256":"813c9cef4d23bd9a429868a8b8c4e926a8f1757edf23ffe3107141ac0de4d0d2","bytes":468888,"compressedBytes":380407},{"inline":"eyJyb290IjpbXX0NCg=="},{"inline":"eyJuYW1lcyI6WyJVbml0eUVuZ2luZS5kbGwiLCJVbml0eUVuZ2luZS5BSU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5BY2Nlc3NpYmlsaXR5TW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLkFkYXB0aXZlUGVyZm9ybWFuY2VNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuQW5kcm9pZEpOSU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5BbmltYXRpb25Nb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuQXNzZXRCdW5kbGVNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuQXVkaW9Nb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuQ2xvdGhNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuQ29udGVudExvYWRNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuQ29yZU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5DcmFzaFJlcG9ydGluZ01vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5EU1BHcmFwaE1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5EaXJlY3Rvck1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5HSU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5HYW1lQ2VudGVyTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLkdyYXBoaWNzU3RhdGVDb2xsZWN0aW9uU2VyaWFsaXplck1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5HcmlkTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLkhpZXJhcmNoeU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5IaWVyYXJjaHlDb3JlTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLkhvdFJlbG9hZE1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5JTUdVSU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5JZGVudGlmaWVyc01vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5JbWFnZUNvbnZlcnNpb25Nb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuSW5wdXRNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuSW5wdXRGb3JVSU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5JbnB1dExlZ2FjeU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5KU09OU2VyaWFsaXplTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLkxvY2FsaXphdGlvbk1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5NYXJzaGFsbGluZ01vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5NdWx0aXBsYXllck1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5QYXJ0aWNsZVN5c3RlbU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5QZXJmb3JtYW5jZVJlcG9ydGluZ01vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5QaHlzaWNzTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlBoeXNpY3MyRE1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5QaHlzaWNzQmFja2VuZFBoeXNYTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlByb3BlcnRpZXNNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuUmVuZGVyQXMyRE1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5SdW50aW1lSW5pdGlhbGl6ZU9uTG9hZE1hbmFnZXJJbml0aWFsaXplck1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5TY3JlZW5DYXB0dXJlTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlNoYWRlclJ1bnRpbWVNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuU2hhZGVyVmFyaWFudEFuYWx5dGljc01vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5TaGFyZWRJbnRlcm5hbHNNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuU3ByaXRlTWFza01vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5TcHJpdGVTaGFwZU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5TdHJlYW1pbmdNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuU3Vic3RhbmNlTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlN1YnN5c3RlbXNNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuVExTTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlRlcnJhaW5Nb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuVGVycmFpblBoeXNpY3NNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuVGV4dENvcmVGb250RW5naW5lTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlRleHRDb3JlVGV4dEVuZ2luZU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5UZXh0UmVuZGVyaW5nTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlRpbGVtYXBNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuVUlNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuVUlFbGVtZW50c01vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5VbWJyYU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5Vbml0eUFuYWx5dGljc01vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5Vbml0eUFuYWx5dGljc0NvbW1vbk1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5Vbml0eUNvbm5lY3RNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuVW5pdHlDb25zZW50TW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlVuaXR5Q3VybE1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5Vbml0eVdlYlJlcXVlc3RNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuVW5pdHlXZWJSZXF1ZXN0QXNzZXRCdW5kbGVNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuVW5pdHlXZWJSZXF1ZXN0QXVkaW9Nb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuVW5pdHlXZWJSZXF1ZXN0VGV4dHVyZU1vZHVsZS5kbGwiLCJVbml0eUVuZ2luZS5Vbml0eVdlYlJlcXVlc3RXV1dNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuVkZYTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlZSTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlZlY3RvckdyYXBoaWNzTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlZlaGljbGVzTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLlZpZGVvTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLldlYkdMTW9kdWxlLmRsbCIsIlVuaXR5RW5naW5lLldpbmRNb2R1bGUuZGxsIiwiVW5pdHlFbmdpbmUuWFJNb2R1bGUuZGxsIiwiQXNzZW1ibHktQ1NoYXJwLmRsbCIsIlVuaXR5LkludGVybmFsQVBJRW5naW5lQnJpZGdlLjAwNC5kbGwiLCJVbml0eS5UZXh0TWVzaFByby5kbGwiLCJVbml0eUVuZ2luZS5VSS5kbGwiXSwidHlwZXMiOlsyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDIsMiwyLDE2LDE2LDE2LDE2XX0="},{"inline":"Z2Z4LXRocmVhZGluZy1tb2RlPTQKd2FpdC1mb3ItbmF0aXZlLWRlYnVnZ2VyPTAKaGRyLWRpc3BsYXktZW5hYmxlZD0wCmJ1aWxkLWd1aWQ9NWRmNTM4NDYyNjUwNDdjMWFkYTMyYTQ4ZjQxM2FiMTcK"},{"path":"../_shared/assets/5c2423d21ddf863cd4b4f36f8c9ecba84de0c0d22120c08b9007a5ccf88bdc45.data.gz","sha256":"5c2423d21ddf863cd4b4f36f8c9ecba84de0c0d22120c08b9007a5ccf88bdc45","bytes":7047300,"compressedBytes":2104576},{"path":"../_shared/assets/0c792c2e19c6a6b9084e0410941845604bb06d61616476f586473c6e42747044.data.gz","sha256":"0c792c2e19c6a6b9084e0410941845604bb06d61616476f586473c6e42747044","bytes":1632004,"compressedBytes":216910}]},"codeUrl":{"path":"../_shared/assets/0f3588bb4cbed0c3dfd2478f28a27281b50b0ab533f26c3c7d8e045925ae79e6.wasm.gz","sha256":"0f3588bb4cbed0c3dfd2478f28a27281b50b0ab533f26c3c7d8e045925ae79e6","bytes":24390877,"compressedBytes":7505808},"frameworkUrl":{"path":"../_shared/assets/9ba1be0e090040c57375c64a296597f25ef882a7941791decd296626557e50c2.js.gz","sha256":"9ba1be0e090040c57375c64a296597f25ef882a7941791decd296626557e50c2","bytes":366354,"compressedBytes":77850}}};</script><script src="../_shared/player.js?v=178af4cf2900"></script></head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-logo-title-footer"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">SlotAI</div>
+      </div>
+    </div>
+    <script>
+      var canvas = document.querySelector("#unity-canvas");
+
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
+      function unityShowBanner(msg, type) {
+        var warningBanner = document.querySelector("#unity-warning");
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/WebGL.loader.js";
+      var config = {
+        arguments: [],
+        dataUrl: buildUrl + "/WebGL.data",
+        frameworkUrl: buildUrl + "/WebGL.framework.js",
+        codeUrl: buildUrl + "/WebGL.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "SlotAI",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+        // errorHandler: function(err, url, line) {
+        //    alert("error " + err + " occurred at line " + line);
+        //    // Return 'true' if you handled this error and don't want Unity
+        //    // to process it further, 'false' otherwise.
+        //    return true;
+        // },
+      };
+
+      // By default, Unity keeps WebGL canvas render target size matched with
+      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+      // Set this to false if you want to decouple this synchronization from
+      // happening inside the engine, and you would instead like to size up
+      // the canvas DOM size and WebGL render target sizes yourself.
+      // config.matchWebGLToCanvasSize = false;
+
+      // If you would like all file writes inside Unity Application.persistentDataPath
+      // directory to automatically persist so that the contents are remembered when
+      // the user revisits the site the next time, uncomment the following line:
+      // config.autoSyncPersistentDataPath = true;
+      // This autosyncing is currently not the default behavior to avoid regressing
+      // existing user projects that might rely on the earlier manual
+      // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
+      // expected to change.
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        document.querySelector("#unity-container").className = "unity-mobile";
+        canvas.className = "unity-mobile";
+
+        // To lower canvas resolution on mobile devices to gain some
+        // performance, uncomment the following line:
+        // config.devicePixelRatio = 1;
+
+
+      } else {
+        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+        canvas.style.width = "960px";
+        canvas.style.height = "540px";
+      }
+
+      document.querySelector("#unity-loading-bar").style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        slotaiCreateUnityInstance(canvas, config, (progress) => {
+          document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
+              }).then((unityInstance) => {
+                document.querySelector("#unity-loading-bar").style.display = "none";
+                document.querySelector("#unity-fullscreen-button").onclick = () => {
+                  unityInstance.SetFullscreen(1);
+                };
+
+              }).catch((message) => {
+                alert(message);
+              });
+            };
+
+      document.body.appendChild(script);
+
+    </script>
+  </body>
+</html>
